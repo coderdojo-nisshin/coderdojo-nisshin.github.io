@@ -7,7 +7,7 @@ body {
   padding-top: 59px;
   width: 100%;
   height: 100%;
-  color: #333;
+  color: #444;
   background-color: #f7f7f7;
 }
 
@@ -29,7 +29,7 @@ h6 {
   width: 100%;
   height: auto;
   padding: 250px 0 200px;
-
+  margin-top: -5px;
   text-align: center;
 
   color: #eee;
@@ -120,6 +120,12 @@ section {
   }
 }
 
+#blog {
+  h2 i {
+    color: #42A5F5;
+  }
+}
+
 #contact {
   h2 i {
     color: #26A69A;
@@ -134,7 +140,7 @@ section {
 
 #sponsor {
   h2 i {
-    color: #03A9F4;
+    color: #AB47BC;
   }
 }
 
@@ -154,18 +160,30 @@ footer {
 
 .post {
   background-color: #eee;
+  padding: 45px;
   h2 {
     font-size: 32px;
     line-height: 1.5;
     -webkit-font-feature-settings: 'palt' 1;
     font-feature-settings: 'palt' 1;
     letter-spacing: 0.04em;
-    margin-top: 72px;
-    margin-bottom: 18px;
     min-height: 1em;
   }
   p {
     font-size: 18px;
     line-height: 36px;
   }
+  header {
+    a {
+      color: #333;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.reacent-posts {
+  padding-top: 2em;
 }
