@@ -61,18 +61,10 @@ sitemap: true
     <div class="row">
       <div class="offset-lg-1 col-lg-5 mx-auto">
         <dl>
-          <dt><i class="far fa-calendar-alt"></i> 日時</dt>
+          <dt><i class="far fa-calendar-alt"></i> 日時 <small>*8月は25日のみになります</small></dt>
           <dd>
             <table class="table table-hover">
               <tbody>
-                <tr>
-                  <th>
-                    2018/06/23 10:00-12:00
-                  </th>
-                  <td>
-                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/86340/">申し込み</a>
-                  </td>
-                </tr>
                 <tr>
                   <th>
                     2018/07/14 10:00-12:00
@@ -89,23 +81,31 @@ sitemap: true
                     <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/89555/">申し込み</a>
                   </td>
                 </tr>
+                <tr>
+                  <th>
+                    2018/08/25 10:00-12:00
+                  </th>
+                  <td>
+                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/92853/">申し込み</a>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </dd>
         </dl>
         <small>
-        各回リンク先のConnpassから申し込みください。<br />
-        続けて参加したい方もお手数ですが、毎回申し込みください。<br />
-        初めてご利用される方はConnpassのアカウントの作成が必要です。<br />
-        兄弟・姉妹で申し込まれる場合は、お手数ですが人数分アカウントを作成してください。
-      </small>
+          各回リンク先のConnpassから申し込みください。<br />
+          続けて参加したい方もお手数ですが、毎回申し込みください。<br />
+          初めてご利用される方はConnpassのアカウントの作成が必要です。<br />
+          兄弟・姉妹で申し込まれる場合は、お手数ですが人数分アカウントを作成してください。
+        </small>
       </div>
       <div class="offset-lg-1 col-lg-5 mx-auto">
         <dl>
           </dd>
           <dt><i class="fa fa-laptop"></i> 持ち物</dt>
           <dd>ノートパソコン、取り組んできる本など<br />
-            <small>*ノートパソコンがない方は申し込み時に記載ください。</small><br/>
+            <small>ノートパソコンがない方は申し込み時に記載ください。</small><br/>
             <dt><i class="fa fa-piggy-bank"></i> 参加費</dt>
             <dd>無料</dd>
             <dt><i class="fas fa-building"></i> 場所</dt>
@@ -137,7 +137,7 @@ sitemap: true
                 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
               </h4>
               <small class="mb-1 text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
-              <p class="card-text mb-auto">{{post.content | strip_html | strip | newline_to_br | truncate: 90 }}</p>
+              <p class="card-text mb-auto">{{post.content | strip_html | strip | newline_to_br | truncate: 96 }}</p>
             </div>
             <div class="col-lg">
               <a href="{{ post.url }}" class="mt-4">
