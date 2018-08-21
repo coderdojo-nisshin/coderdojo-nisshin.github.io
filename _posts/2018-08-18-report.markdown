@@ -1,0 +1,73 @@
+---
+layout: page
+title:  あいちワークショップ・ギャザリング2018に出展しました。
+date:   2018-08-22 00:41:00 +0900
+eye_catch: 2018-08-18_1_small.jpg
+---
+![あいちワークショップ・ギャザリング2018の模様](/assets/img/2018-08-18_1.jpg){: .img-fluid}
+
+2018年8月18日(土)に椙山女学園大学星ヶ丘キャンパスで開催された[あいちワークショップ・ギャザリング2018](http://workshop.ciao.jp/gathering/data/archives/tag/2018/)にCoderDojo天白、CoderDojo名古屋の方々と一緒に参加しました。
+
+当日の次の５つワークショップと展示を行いました。
+①木製迷路パズルワークショップ
+②Scratchワークショップ
+③micro:bitワークショップ
+④Scratch＆Kinectゲーム体験
+⑤CoderDojo作品展示
+
+### ①木製迷路パズルワークショップ
+CoderDojo名古屋のメンターもやられている坂元さんが開発された木製迷路パズル「[A mazeing!! maker](http://amazeingmaker.com/)」のワークショップを行いました。CoderDojo名古屋で大人気で、あいちワークショップギャザリングでもたくさんの人が参加してくれました。
+![木製迷路パズルワークショップ](/assets/img/2018-08-18_2.jpg){: .img-fluid}
+アドバイスをもらいながら作成します。
+![木製迷路パズルワークショップ作成中](/assets/img/2018-08-18_3.jpg){: .img-fluid}
+木の枠の中にどういった迷路にするか考えながらブロックを埋めていきます。
+
+### ②Scratchワークショップ
+Scratchでシューティングゲームを一から作るワークショップを行いました。
+![木製迷路パズルワークショップの模様](/assets/img/2018-08-18_4.jpg){: .img-fluid}
+大学のPCがたくさん並んだ教室を使用させていただきました。
+
+### ③micro:bitワークショップ
+micro:bitでじゃんけんゲームを作るワークショップを行いました。最後は作ったプログラムをmicro:bit本体に書き込み遊んでもらいました。
+![micro:bitワークショップ](/assets/img/2018-08-18_5.jpg){: .img-fluid}
+たくさんの方が参加してくれました。
+![micro:bitワークショップ](/assets/img/2018-08-18_6.jpg){: .img-fluid}
+Scratchのようにブロックを組み合わせてプログラムを作ります。
+
+### ④Scratch＆Kinectゲーム体験
+CoderDojo天白のジュニアメンターさんが作ってくれたスクラッチとキネクトセンサーを使ったゲームで遊んでもらいました。体の動きにあわせて画面上のネコが動くので、歩く、ハシゴをのぼる、トロッコに乗るなどの動きをしながらネコを動かしてコインを集めます。１回遊ぶと、いい運動になります。
+![Scratch＆Kinectゲーム体験中](/assets/img/2018-08-18_12.jpg){: .img-fluid}
+ハシゴをのぼっているところ？
+![Scratch＆Kinectゲーム体験中](/assets/img/2018-08-18_7.jpg){: .img-fluid}
+お子さんを抱っこしながら挑戦中！
+![Scratch＆Kinectゲームのゴール後の画面](/assets/img/2018-08-18_8.jpg){: .img-fluid}
+ゴール後の画面です。
+
+### ⑤CoderDojo作品展示
+CoderDojo天白、CoderDojo名古屋で行なわれているmicro:bitとMESH、コロコロ迷路の作品を展示し、来られた方に体験してもらいました。写真にはありませんが、この他にCoderDojoに来ている子供たちのScratchの作品も楽しんでもらいました。
+![micro:bitとコロコロ迷路とMESHの針金迷路](/assets/img/2018-08-18_10.jpg){: .img-fluid}
+奥がmicro:bitで動くバギーのサッカーゲーム、真ん中右がボールのコロコロ迷路、手前左はmicro:bitで動く車、手前右がMESHを使った針金迷路（イライラ棒）です。
+![MESHの針金迷路](/assets/img/2018-08-18_9.jpg){: .img-fluid}
+スプーンで針金に当たらないようにゴールを目指す針金迷路です。CoderDojo天白、日進、名古屋（の写真）を巡ってゴールを目指します。針金に当たって時の音が怖くてビックリしました。
+![バギーのサッカー](/assets/img/2018-08-18_11.jpg){: .img-fluid}
+micro:bitのリモコンを傾けてバギーを操作するのですが、なかなかうまく動かせません。うまく動かせないからこそ、なんとかゴールを決めてやろうとがんばる子がたくさんいました。
+
+
+
+最後に、今回ご一緒させていただいたCoderDojo天白、 CoderDojo名古屋のブログとConnpassのページを紹介します。 どちらもCoderDojo日進と比べると規模も大きく、いろいろなことをやられています。よかったら参加してみてください。
+
+#### CoderDojo天白
+ブログ [https://coderdojo-tempaku.com/](https://coderdojo-tempaku.com/)
+Connpass [https://tempaku.connpass.com/](https://tempaku.connpass.com/)
+
+#### CoderDojo名古屋
+ブログ [http://coderdojo-nagoya.hateblo.jp/](http://coderdojo-nagoya.hateblo.jp/)
+Connpass [https://coderdojo-nagoya.connpass.com/](https://coderdojo-nagoya.connpass.com/)
+
+
+CoderDojo日進は次回 8/25（土）10:00-12:00 に開催します。
+こちらの[Connpass](https://coderdojo-nisshin.connpass.com/event/92853/)から申し込みください。
+その後は、[9/8(土)](https://coderdojo-nisshin.connpass.com/event/94575/)、[9/29(土)](https://coderdojo-nisshin.connpass.com/event/94576/)の予定です。
+
+
+作成：寺島
