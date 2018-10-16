@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row mt-5">
         <div class="col-lg-9">
-          {% for post in site.posts limit:3 %}
+          {% for post in paginator.posts %}
           <div class="card">
             <article class="post">
               <header>
@@ -13,6 +13,34 @@
             </article>
           </div>
           {% endfor %}
+          <!-- pagination -->
+          {% if paginator.total_pages > 1 %}
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                {% if paginator.previous_page %}
+                  <li class="page-item"><a class="page-link" href="/{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+                {% else %}
+                  <li class="page-item disabled"><span class="page-link">Prev</span></li>
+                {% endif %}
+
+                {% for page in (1..paginator.total_pages) %}
+                  {% if page == paginator.page %}
+                    <li class="page-item active"><span class="page-link">{{ page }}</span></li>
+                  {% elsif page == 1 %}
+                    <li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
+                  {% else %}
+                    <li class="page-item"><a class="page-link" href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                  {% endif %}
+                {% endfor %}
+
+                {% if paginator.next_page %}
+                  <li class="page-item"><a class="page-link" href="/{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+                {% else %}
+                  <li class="page-item disabled"><span class="page-link">Next</span></li>
+                {% endif %}
+              </ul>
+            </nav>
+          {% endif %}
         </div>
         <div class="col reacent-posts">
           <h4>最近の投稿</h4>

@@ -68,7 +68,7 @@ eye_catch: 2018-10-13_small.jpg
 
 次回は10/20（土）10:00-12:00 開催です。
 申し込みはこちらの[Connpass](https://coderdojo-nisshin.connpass.com/event/102483/)からお願いします。
-その後は、１週間後の[11/10(土)](https://coderdojo-nisshin.connpass.com/event/104181/)です。
+その後は[11/10(土)](https://coderdojo-nisshin.connpass.com/event/104181/)です。
 参加お待ちしています！
 
 作成：寺島
