@@ -65,19 +65,18 @@ sitemap: true
               <tbody>
                 <tr>
                   <th>
-                    2018/10/20 10:00-12:00<br>
-                    <small>*第4週目ではなく3週目です。</samll>
-                  </th>
-                  <td>
-                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/102483/">申し込み</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th>
                     2018/11/10 10:00-12:00<br>
                   </th>
                   <td>
                     <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/104181/">申し込み</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    2018/11/24 10:00-12:00<br>
+                  </th>
+                  <td>
+                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/105687/">申し込み</a>
                   </td>
                 </tr>
               </tbody>
@@ -128,7 +127,7 @@ sitemap: true
                 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
               </h4>
               <small class="mb-1 text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
-              <p class="card-text mb-auto">{{post.content | strip_html | strip | newline_to_br | truncate: 96 }}</p>
+              <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 96 }}</p>
             </div>
             <div class="col-lg">
               <a href="{{ post.url }}" class="mt-4">

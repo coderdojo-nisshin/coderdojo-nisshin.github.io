@@ -6,14 +6,14 @@
   <body>
     {% include nav.html %}
     <div class="container">
-      <div class="row mt-5">
+      <div class="row mt-3">
         <div class="col-lg-9">
           <article class="post">
             <header>
               <small>{{ page.date | date: "%Y-%m-%d" }}</small>
               <h2>{{ page.title | escape }}</h2>
             </header>
-            {{ content | newline_to_br}}
+            {{ content }}
           </article>
         </div>
         <div class="col">

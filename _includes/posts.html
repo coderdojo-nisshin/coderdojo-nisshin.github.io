@@ -9,7 +9,7 @@
                 <small>{{ post.date | date: "%Y-%m-%d" }}</small>
                 <a href="{{ post.url }}"><h2>{{ post.title | escape }}</h2></a>
               </header>
-              {{ post.content | newline_to_br}}
+              {{ post.content }}
             </article>
           </div>
           {% endfor %}
