@@ -1,0 +1,21 @@
+---
+layout: page
+title:  Progateが利用できるようになりました
+date:   2018-11-01 23:00:00 +0900
+eye_catch: 2018-11-01_small.png
+---
+
+![プログラミング学習のProgate、CoderDojo Japanと提携](/assets/img/181018_CoderDojo_提携_バナー.png){: .img-fluid}
+
+[プログラミング学習のProgate、全国のCoderDojoへ法人プランの無料提供開始](http://news.coderdojo.jp/2018/10/29/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AD%A6%E7%BF%92%E3%81%AEprogate%E3%80%81%E5%85%A8%E5%9B%BD%E3%81%AEcoderdojo%E3%81%B8%E6%B3%95%E4%BA%BA%E3%83%97%E3%83%A9%E3%83%B3/)
+
+本日11/1からCoderDojo日進でも、プログラミング学習サービス「Progate」が無料で利用できるようになりました。
+
+Progateが提供するレッスンは、HTML&CSS, JavaScript, jQuery, Ruby, Ruby on Rails, PHP, Java, Python, Swift, Command Line, Git, Sass, SQL, Go の14種類もあります。<br />
+[学べるプログラミング言語一覧](https://prog-8.com/languages)
+
+Scratchからステップアップして、テキストプログラミングを始めてみたい方にちょうどいい教材だと思います。
+
+興味がある方は、CoderDojo日進の参加申し込み時に、その旨記載ください。<br />
+申し込みは、こちらの[Connpass](https://coderdojo-nisshin.connpass.com/)から参加したい日を選んでください。<br />
+申し込み、お待ちしています。
