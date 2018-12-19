@@ -83,16 +83,16 @@ sitemap: true
             </table>
           </dd>
         </dl>
-        <small>
+        <p>
           各回リンク先のConnpassから申し込みください。<br />
-          続けて参加したい方もお手数ですが、毎回申し込みください。<br />
-          初めてご利用される方はConnpassのアカウントの作成が必要です。<br />
-          <a href="http://help.connpass.com/basic/regist">こちら</a>を参考にしてください。
-        </small>
+          続けて参加さる方も、お手数ですが毎回申し込みください。<br />
+        <p/>
+        <p>
+          初めてご利用される方はConnpassのアカウントの作成が必要です。<a href="http://help.connpass.com/basic/regist">こちら</a>を参考にしてください。
+        </p>
       </div>
       <div class="offset-lg-1 col-lg-5 mx-auto">
         <dl>
-          </dd>
           <dt><i class="fa fa-laptop"></i> 持ち物</dt>
           <dd>ノートパソコン、取り組んでいる本など<br />
             <small>ノートパソコンがない方は申し込み時に記載ください。</small><br/>
@@ -129,8 +129,8 @@ sitemap: true
               <small class="mb-1 text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
               <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 96 }}</p>
             </div>
-            <div class="col-lg">
-              <a href="{{ post.url }}" class="mt-4">
+            <div class="col-lg-6 m-auto">
+              <a href="{{ post.url }}">
                 <img class="home-post" alt="{{ post.title }}" src="assets/img/{{ post.eye_catch }}">
               </a>
             </div>
