@@ -15,6 +15,14 @@
             </header>
             {{ content }}
           </article>
+          <div class="m-3">
+            {% if page.next.url %}
+              <a class="btn btn-primary mt-1" href="{{page.next.url}}"><i class="fas fa-angle-double-left"></i> {{page.next.title}} </a>
+            {% endif %}
+            {% if page.previous.url %}
+              <a class="btn btn-primary mt-1 float-right" href="{{page.previous.url}}">{{page.previous.title}} <i class="fas fa-angle-double-right"></i></a>
+            {% endif %}
+          </div>
         </div>
         <div class="col">
           <div class="reacent-posts">
@@ -28,6 +36,7 @@
         </div>
       </div>
     </div>
+
     {% include footer.html %}
     {% include scripts.html %}
   </body>
