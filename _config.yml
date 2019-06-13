@@ -24,6 +24,13 @@ url: "https://coderdojo-nisshin.github.io/"
 markdown: kramdown
 #theme: minima
 plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+
+whitelist:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
@@ -35,9 +42,6 @@ sass:
 sass:
     load_paths:
         - _sass
-
-plugins:
-  - jekyll-paginate
 
 paginate: 3
 paginate_path: "blog/page:num"
