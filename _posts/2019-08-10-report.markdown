@@ -7,7 +7,7 @@ eye_catch: 2019-08-10_small.jpg
 ![会場の様子](/assets/img/2019-08-10_0-1.jpg){: .img-fluid}
 
 8月10日(土)、CoderDojo 日進をにぎわい交流館で開催しました。<br/>
-参加者はニンジャ（子ども）が10人、メンターは4人でした。<br />
+参加者はニンジャ（子ども）が10人、メンターは3人でした。<br />
 途中から、[CoderDojo瑞穂](https://coderdojo-mizuho.connpass.com/)のチャンピオンの佐原さんも遊びに来てくれました。
 
 
@@ -125,7 +125,7 @@ CoderDojo日進では、プログラミングゼミをやる子が初めてだ�
 8/24(土) あいちワークショップギャザリング＠椙山女学園大学星ヶ丘キャンパス　にCoderDojo瑞穂、CoderDojo犬山のみなさんと出展します。大学生や他の団体の出展も多数あり面白いイベントなのでよかったら参加してください。<br />
 [http://workshop.ciao.jp/gathering/](http://workshop.ciao.jp/gathering/)<br />
 
-8/31(土) 10:00-16:00 「小・中学生対象 micro:bit で電子工作＆プログラミン　第１回」を行います。申し込みはこちらからお願いします。<br />
+8/31(土) 10:00-16:00 「小・中学生対象 micro:bit で電子工作＆プログラミン　第２回」を行います。申し込みはこちらからお願いします。<br />
 [https://coderdojo-nisshin.connpass.com/event/135729/](https://coderdojo-nisshin.connpass.com/event/135729/)<br />
 
 次回の通常開催は 9/14(土) 10:00-12:00 です。申し込みはこちらからお願いします。<br />
