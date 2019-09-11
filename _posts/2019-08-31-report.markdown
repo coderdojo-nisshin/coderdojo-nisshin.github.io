@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2019年08月31日 micro:bitで電子工作＆プログラミング 3回目 開催レポート
+title: 2019年08月31日 micro:bitで電子工作＆プログラミング 2回目 開催レポート
 date: 2019-09-11 18:42:00 +0900
 eye_catch: 2019-08-31_small.jpg
 ---
