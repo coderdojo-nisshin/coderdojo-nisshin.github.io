@@ -38,7 +38,7 @@ sitemap: true
     <div class="row">
       <div class="offset-lg-1 col-lg-3">
         <div class="coderdojo-logo text-center">
-          <img src="assets/img/coderdojo.svg" alt="CoderDojoのロゴ" width="5%">
+          <img src="{{site.url}}/assets/img/coderdojo.svg" alt="CoderDojoのロゴ" width="5%">
         </div>
       </div>
       <div class="col-lg-8 mx-auto">
@@ -63,22 +63,21 @@ sitemap: true
           <dd>
             <table class="table table-hover">
               <tbody>
+                {% for schedule in site.data.schedule %}
                 <tr>
                   <th>
-                    2020/02/22 10:00-12:00
+                    {{schedule.date}}
+                    {% if schedule.text %}
+                      <div class="font-weight-normal text-secondary">
+                        <small>{{schedule.text}}</small>
+                      </div>
+                    {% endif %}
                   </th>
                   <td>
-                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/164569/">申し込み</a>
+                    <a class="btn btn-primary" href="{{schedule.link}}">申し込み</a>
                   </td>
                 </tr>
-                <tr>
-                  <th>
-                    2020/03/14 10:00-12:00
-                  </th>
-                  <td>
-                    <a class="btn btn-primary" href="https://coderdojo-nisshin.connpass.com/event/166724/">申し込み</a>
-                  </td>
-                </tr>
+                {% endfor %}
               </tbody>
             </table>
           </dd>
