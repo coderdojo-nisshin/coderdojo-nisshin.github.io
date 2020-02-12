@@ -18,7 +18,7 @@ email: nisshin.jp@coderdojo.com
 description: >- # this means to ignore newlines until "baseurl:"
   CoderDojo日進は日進市の子供向けプログラミング道場です。プログラミング教室とは違いカリキュラムなどなく自発的に作品作りを行います。
 
-url: "https://coderdojo-nisshin.github.io/"
+url: "https://coderdojo-nisshin.github.io"
 
 # Build settings
 markdown: kramdown
