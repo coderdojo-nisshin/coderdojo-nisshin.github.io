@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2018年12月22日開催レポート
 date:   2018-12-26 18:00:00 +0900
 eye_catch: 2018-12-22_small.jpg

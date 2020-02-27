@@ -218,3 +218,11 @@ footer {
 .card {
   margin-bottom: 2em;
 }
+
+.tools-table {
+    @media (max-width: 768px) {
+      thead th:nth-child(2) {
+        width: 95px;
+      }
+    }
+}

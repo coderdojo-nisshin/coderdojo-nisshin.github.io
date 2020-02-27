@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  あいちワークショップ・ギャザリング2018に出展しました。
 date:   2018-08-22 00:41:00 +0900
 eye_catch: 2018-08-18_1_small.jpg

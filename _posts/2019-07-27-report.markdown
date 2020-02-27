@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title: 2019年07月27日 micro:bitで電子工作＆プログラミング １回目 開催レポート
 date: 2019-08-05 22:45:00 +0900
 eye_catch: 2019-07-27_small.jpg

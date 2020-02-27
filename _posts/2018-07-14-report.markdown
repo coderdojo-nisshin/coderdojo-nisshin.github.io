@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2018年7月14日開催レポート
 date:   2018-07-16 10:41:00 +0900
 eye_catch: 2018-07-14_1_small.jpg

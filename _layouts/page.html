@@ -6,37 +6,10 @@
   <body>
     {% include nav.html %}
     <div class="container">
-      <div class="row mt-3">
-        <div class="col-lg-9">
-          <article class="post">
-            <header>
-              <small>{{ page.date | date: "%Y-%m-%d" }}</small>
-              <h2>{{ page.title | escape }}</h2>
-            </header>
-            {{ content }}
-          </article>
-          <div class="m-3">
-            {% if page.next.url %}
-              <a class="btn btn-primary mt-1" href="{{page.next.url}}"><i class="fas fa-angle-double-left"></i> {{page.next.title}} </a>
-            {% endif %}
-            {% if page.previous.url %}
-              <a class="btn btn-primary mt-1 float-right" href="{{page.previous.url}}">{{page.previous.title}} <i class="fas fa-angle-double-right"></i></a>
-            {% endif %}
-          </div>
-        </div>
-        <div class="col">
-          <div class="reacent-posts">
-            <h4>最近の投稿</h4>
-            <ul>
-              {% for post in site.posts limit:5 %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
+      <div class="mt-5">
+        {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
     {% include scripts.html %}
   </body>

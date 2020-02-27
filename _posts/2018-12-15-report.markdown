@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2018年12月15日開催レポート
 date:   2018-12-19 13:00:00 +0900
 eye_catch: 2018-12-15_small.jpg

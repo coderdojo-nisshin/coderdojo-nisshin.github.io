@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  "CoderDojo日進始まりました！"
 date:   2018-06-13 12:06:00 +0900
 eye_catch: 2018-06-09_1_small.jpg

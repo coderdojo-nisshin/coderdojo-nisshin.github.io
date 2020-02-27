@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title: 2020年1月25日開催レポート
 date: 2020-01-30 10:30:00 +0900
 eye_catch: 2020-01-25_small.jpg

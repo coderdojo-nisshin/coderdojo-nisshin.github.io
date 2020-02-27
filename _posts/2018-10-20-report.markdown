@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2018年10月20日開催レポート
 date:   2018-10-22 10:00:00 +0900
 eye_catch: 2018-10-20_small.jpg

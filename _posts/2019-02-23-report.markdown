@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2019年02月23日開催レポート
 date:   2019-02-28 23:40:00 +0900
 eye_catch: 2019-02-23_small.jpg

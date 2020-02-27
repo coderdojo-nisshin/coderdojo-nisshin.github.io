@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  2019年04月13日開催レポート
 date:   2019-04-20 00:12:00 +0900
 eye_catch: 2019-04-13_small.jpg

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title: 2019年11月09日開催レポート
 date: 2019-11-16 14:56:00 +0900
 eye_catch: 2019-11-09_small.jpg

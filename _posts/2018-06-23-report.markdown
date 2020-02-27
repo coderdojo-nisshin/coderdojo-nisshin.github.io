@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_page
 title:  "2018年6月23日開催レポート"
 date:   2018-06-27 00:00:00 +0900
 eye_catch: 2018-06-23_1_small.jpg
