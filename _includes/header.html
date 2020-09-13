@@ -11,6 +11,12 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% if page.description %}
+<meta name="description" content={{ page.description }}>
+{% endif %}
+{% if page.image %}
+<meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
+{% endif %}
 
 <!-- Bootstrap CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -38,7 +44,5 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicon-114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicon-72.png" />
 <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon-57.png" />
-{% if page.description %}
-  <meta name="description" content={{ page.description }}>
-{% endif %}
+
 <title>{{ page.title }}</title>
