@@ -3,7 +3,7 @@ layout: blog_page
 title: 2020年10月10日開催レポート
 date: 2020-10-17 09:22:00 +0900
 eye_catch: 2020-10-10_small.jpg
-image: 2020-10-10_0-1.jpg
+image: 2020-10-10_1.jpg
 ---
 
 10/10(土)、9時からCoderDojo日進をにぎわい交流館で開催しました。<br />
