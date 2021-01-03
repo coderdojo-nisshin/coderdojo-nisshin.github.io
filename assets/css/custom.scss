@@ -129,6 +129,17 @@ section {
   h2 i {
     color: #42A5F5;
   }
+  @media (min-width: 575.98px) {
+    img {
+      height: 220px;
+      overflow-y: hidden;
+    }
+  }
+  @media (max-width: 575.98px) {
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 #contact {

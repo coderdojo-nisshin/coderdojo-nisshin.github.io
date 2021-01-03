@@ -136,15 +136,15 @@ sitemap: true
     {% for post in site.posts limit:2 %}
       <div class="col-lg-6 mx-auto">
         <div class="card">
-          <div class="row p-3">
-            <div class="col-lg">
+          <div class="row">
+            <div class="col-lg py-3 pl-4">
               <h4 class="mb-0">
                 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
               </h4>
               <small class="mb-1 text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
-              <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 96 }}</p>
+              <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 150 }}</p>
             </div>
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 m-auto text-center">
               <a href="{{ post.url }}">
                 <img class="home-post" alt="{{ post.title }}" src="assets/img/{{ post.eye_catch }}">
               </a>
