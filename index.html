@@ -142,11 +142,11 @@ sitemap: true
                 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
               </h4>
               <small class="mb-1 text-muted">{{ post.date | date: "%Y-%m-%d" }}</small>
-              <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 150 }}</p>
+              <p class="card-text mb-auto">{{post.content | strip_html | strip | truncate: 140 }}</p>
             </div>
-            <div class="col-lg-6 m-auto text-center">
+            <div class="col-lg-6 m-auto text-center pr-4">
               <a href="{{ post.url }}">
-                <img class="home-post" alt="{{ post.title }}" src="assets/img/{{ post.eye_catch }}">
+                <img class="img-fluid" alt="{{ post.title }}" src="assets/img/{{ post.eye_catch }}">
               </a>
             </div>
           </div>

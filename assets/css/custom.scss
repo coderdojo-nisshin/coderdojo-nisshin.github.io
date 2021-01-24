@@ -129,12 +129,6 @@ section {
   h2 i {
     color: #42A5F5;
   }
-  @media (min-width: 575.98px) {
-    img {
-      height: 220px;
-      overflow-y: hidden;
-    }
-  }
   @media (max-width: 575.98px) {
     h4 {
       font-size: 1.2rem;
@@ -199,6 +193,7 @@ footer {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     margin-bottom: 25px;
+    padding-top:10px;
   }
   h4 {
     margin-bottom: 20px;
@@ -218,7 +213,7 @@ footer {
     p {
       font-size: 18px;
       line-height: 32px;
-      margin-bottom: 32px;
+      margin-bottom: 20px;
     }
     li {
       font-size: 18px;
