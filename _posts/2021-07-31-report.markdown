@@ -1,0 +1,71 @@
+---
+layout: blog_page
+title: 2021年07月31日「ロボットカーをプログラミングしてお菓子をゲットしよう！」開催
+date: 2021-08-12 17:50:00 +0900
+eye_catch: 2021-07-31_small.png
+image: 2021-07-31-0.jpg
+---
+
+7/31(土)の「ロボットカーをプログラミングしてお菓子をゲットしよう！」というタイトルで、にぎわい交流館でイベントを開催しました。
+
+![](/assets/img/2021-07-31-0.png){: .img-fluid}
+
+micro:bitで動くロボットカー「Maqueen」の前方に、レゴと紙で作ったショベルとサーボモータをつけてショベルカーを作り、このショベルカーでお菓子をすくうプログラムをに取り組んでもらいました。
+
+![](/assets/img/2021-07-31-1.jpg){: .img-fluid}
+
+まず、どんなものを作るの説明してから、スタートです。
+
+![](/assets/img/2021-07-31-3.jpg){: .img-fluid}
+
+
+お菓子をゲットするプログラムを作る前に、過去のCoderDojo日進のイベントなどでMaqueenを使ったことがある子には、サーボモーターの使い方を覚えてもらいました。
+初めての子は少し大変ですが、micro:bitの使い方から、LEDを光らせるプログラムの作成や、Maqueenを前進・後退させるプログラムなどのサンプルを作った後に、お菓子をゲットするプログラムに挑戦してもらいました。
+
+今回の、お菓子取りのルールです。
+<div style="border: 1px solid black;border-radius:10px;padding:5px;margin-bottom:40px;">
+<span style="color:red;">ルール1</span> スタート線から始める<br /> 
+<span style="color:red;">ルール2</span> 動き始めは、すくう部分が浮いていること<br />
+<span style="margin-left:50px"></span>（初めからずっと下げるのは<span style="color:red;">✖</span>）<br />
+<span style="color:red;">ルール3</span> すくうのは一度だけ<br />
+<span style="color:red;">ルール4</span> すくったら、すくう部分を持ち上げて、スタート線まで戻ること<br /> 
+<span style="color:red;">ルール5</span> お菓子はマットの上の好きな所に10コ置ける<br />
+<span style="margin-left:50px"></span>（置く時間は10秒間 スタート後は動かせない）<br />
+<span style="color:red;">ルール6</span> すくう部分の紙の形は、自分でアレンジしてよい<br />
+</div>
+
+
+![](/assets/img/2021-07-31-2.jpg){: .img-fluid}
+プログラムを作って、うごごかしてみてを事前にプログラムの動作確認をしてもらいました。
+
+![](/assets/img/2021-07-31-4.jpg){: .img-fluid}
+お菓子を横に並べてみたり。
+
+![](/assets/img/2021-07-31-5.jpg){: .img-fluid}
+ロボットカーがお菓子の山にまっすぐ向かって行っているので、うまくいきそうです！
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1BzvDwRh1l6kQaAe8k9whW6EwBDljnQ7H/preview" allow="autoplay"></iframe>
+</div>
+
+最後に本番コースで、2回ずつお菓子取りに挑戦してもらいました。
+ゲットしたお菓子は、もちろん持って帰ってもらいました。
+動画は、一番たくさんお菓子をゲットできたロボットカーです。
+なんと４つも採れました！！
+
+
+![](/assets/img/2021-07-31-6.jpg){: .img-fluid}
+
+最後にみんなで集合写真！
+
+
+今回のイベントは、メンターの河原さんに、事前準備から当日の説明・進行まで担当していただきました。ありがとうございました。
+
+
+### 今後の予定
+次回は8/21(土) 9:00-11:00 にぎわい交流館＆オンラインでの開催です。<br/>
+[https://coderdojo-nisshin.connpass.com/event/220269/](https://coderdojo-nisshin.connpass.com/event/220269/)
+
+参加お待ちしています！
+
+作成：寺島
