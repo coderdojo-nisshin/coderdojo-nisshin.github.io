@@ -1,6 +1,6 @@
 ---
 layout: blog_page
-title: 2021年11月13日開催レポート
+title: 2021年11月27日開催レポート
 date: 2021-12-05 16:10:00 +0900
 eye_catch: 2021-11-27_small.png
 image: 2021-11-27_1.png
