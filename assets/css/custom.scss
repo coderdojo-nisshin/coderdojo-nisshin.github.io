@@ -148,9 +148,15 @@ section {
   }
 }
 
-#sponsor {
+#donate {
   h2 i {
     color: #AB47BC;
+  }
+}
+
+#sponsor {
+  h2 i {
+    color: #FDD835;
   }
 }
 
@@ -237,4 +243,12 @@ footer {
         width: 95px;
       }
     }
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+  img {
+    max-width: 300px;
+  }
 }
