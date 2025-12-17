@@ -120,9 +120,14 @@ section {
     padding-top: 15px;
     font-size: 150%;
   }
-  .table th {
-    color: #F44336;
-    vertical-align: middle;
+  .table {
+    th, td {
+      background-color: inherit;
+    }
+    th {
+      color: #F44336;
+      vertical-align: middle;
+    }
   }
 }
 

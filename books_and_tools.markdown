@@ -40,7 +40,7 @@ Scratchは前のバージョンである2.0のものもありますが、本の�
 {: .table .table-striped .table-bordered .mb-5 .tools-table}
 | 名前 | 個数 |
 |-------|:--------|
-| ノートパソコン | 3台 |
+| ノートパソコン | 4台 |
 | [micro:bit](https://microbit.org/ja/guide/)、USBケーブル、スピーカー、ミノムシクリップコード、サーボモーターなど | 10セット |
 | [micro:Maqueen](https://wiki.dfrobot.com/micro:Maqueen_for_micro:bit_SKU:ROB0148-E(ROB0148)/) | 1台 |
 | [BOSON Starter Kit for micro:bit](https://www.physical-computing.jp/product/1501) | 1セット |
