@@ -38,10 +38,8 @@ whitelist:
 sass:
   sass_dir: _sass
   style: compressed
-
-sass:
-    load_paths:
-        - _sass
+  load_paths:
+    - _sass
 
 paginate: 3
 paginate_path: "blog/page:num"
