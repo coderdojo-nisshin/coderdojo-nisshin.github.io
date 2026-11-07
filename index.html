@@ -38,7 +38,7 @@ sitemap: true
     <div class="row">
       <div class="offset-lg-1 col-lg-3">
         <div class="coderdojo-logo text-center">
-          <img src="{{site.url}}/assets/img/coderdojo.svg" alt="CoderDojoのロゴ" width="5%">
+          <img src="{{ '/assets/img/coderdojo.svg' | relative_url }}" alt="CoderDojoのロゴ" width="5%">
         </div>
       </div>
       <div class="col-lg-8 mx-auto">
@@ -69,7 +69,7 @@ sitemap: true
                   <th>
                     {{schedule.date}}
                     {% if schedule.text %}
-                      <div class="font-weight-normal text-secondary">
+                      <div class="fw-normal text-secondary">
                         <small>{{schedule.text}}</small>
                       </div>
                     {% endif %}
@@ -160,20 +160,20 @@ sitemap: true
       <div class="col-lg-6 mx-auto">
         <h2 class="text-center"><i class="fas fa-envelope"></i> お問い合わせ</h2>
         <form action="https://formspree.io/f/xwkddewd" method="POST">
-          <div class="form-group">
-            <label for="cd-form-email">メールアドレス</label>
+          <div class="mb-3">
+            <label class="form-label" for="cd-form-email">メールアドレス</label>
             <input type="email" name="email" class="form-control" id="cd-form-email" required>
           </div>
-          <div class="form-group">
-            <label for="cd-form-name">お名前</label>
-            <input type="name" name="name" class="form-control" id="cd-form-name" required>
+          <div class="mb-3">
+            <label class="form-label" for="cd-form-name">お名前</label>
+            <input type="text" name="name" class="form-control" id="cd-form-name" required>
           </div>
-          <div class="form-group">
-            <label for="cd-form-inqiry">内容</label>
-            <textarea name="message" class="form-control" id="cd-form-inqiry" rows="5"></textarea>
+          <div class="mb-3">
+            <label class="form-label" for="cd-form-message">内容</label>
+            <textarea name="message" class="form-control" id="cd-form-message" rows="5" required></textarea>
           </div>
-          <div class="form-group text-center">
-            <input class="btn btn-primary btn-lg btn-block" type="submit" value="送信">
+          <div class="d-grid">
+            <input class="btn btn-primary btn-lg" type="submit" value="送信">
           </div>
           <input type="hidden" name="_subject" value="[CoderDojo日進]問い合わせ" />
           <input type="hidden" name="_language" value="ja" />
@@ -215,7 +215,7 @@ sitemap: true
         </p>
         <div class="sponsors">
           <a href="https://code4u.jp" target="_blank" rel="noopener noreferrer">
-            <img src="{{site.url}}/assets/img/sponsor_petitcat.png" alt="Code4U.JPのロゴ">
+            <img src="{{ '/assets/img/sponsor_petitcat.png' | relative_url }}" alt="Code4U.JPのロゴ">
           </a>
         </div>
       </div>
