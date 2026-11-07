@@ -1,0 +1,251 @@
+@charset "UTF-8";
+body {
+  font-family: '游ゴシック', 'Hiragino Kaku Gothic ProN', 'メイリオ', meiryo, Helvetica, Arial, sans-serif;
+  position: relative;
+  padding-top: 59px;
+  width: 100%;
+  height: 100%;
+  color: #444;
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+}
+
+#top {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 250px 0 200px;
+  margin-top: -5px;
+  text-align: center;
+  color: #eee;
+  background: url("../img/top.png") no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top h1 {
+  font-size: 350%;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+@media (max-width: 575.98px) {
+  #top {
+    padding: 100px 0 50px;
+  }
+
+  #top h1 {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  /* 表示領域が320px以下の場合に適用するスタイル */
+  #top h1 {
+    padding: 80px 0 50px;
+    font-size: 200%;
+  }
+}
+
+.navvar {
+  background-color: #333;
+}
+
+.navvar a {
+  color: #bbb;
+}
+
+.navvar a:hover {
+  color: #eee;
+}
+
+.navvar .active {
+  color: #eee;
+}
+
+.navbar-brand {
+  color: #eee;
+}
+
+body {
+  position: relative;
+}
+
+section {
+  padding: 80px 0 40px;
+  margin-top: -40px;
+}
+
+section:nth-child(even) {
+  background-color: #eee;
+  padding-top: 40px;
+}
+
+#about img {
+  width: 200px;
+}
+
+#events h2 i {
+  color: #F44336;
+}
+
+#events th {
+  font-size: 120%;
+  width: 70%;
+}
+
+#events th small {
+  color: #444;
+  font-size: 70%;
+}
+
+#events iframe {
+  padding-top: 10px;
+  height: 300px;
+  width: 100%;
+}
+
+#events dt {
+  padding-top: 15px;
+  font-size: 150%;
+}
+
+#events .table th, #events .table td {
+  background-color: inherit;
+}
+
+#events .table th {
+  color: #F44336;
+  vertical-align: middle;
+}
+
+#blog h2 i {
+  color: #42A5F5;
+}
+
+@media (max-width: 575.98px) {
+  #blog h4 {
+    font-size: 1.2rem;
+  }
+}
+
+#contact h2 i {
+  color: #26A69A;
+}
+
+#mentor h2 i {
+  color: #FF9800;
+}
+
+#donate h2 i {
+  color: #AB47BC;
+}
+
+#sponsor h2 i {
+  color: #FDD835;
+}
+
+footer {
+  padding: 20px 0 0;
+}
+
+#contactThanks {
+  padding: 300px 0;
+}
+
+.shrink {
+  visibility: hidden;
+}
+
+.post {
+  background-color: #eee;
+  padding: 15px;
+}
+
+.post h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  -webkit-font-feature-settings: 'palt' 1;
+  font-feature-settings: 'palt' 1;
+  letter-spacing: 0.04em;
+  min-height: 1em;
+}
+
+.post header a {
+  color: #333;
+}
+
+.post header a:hover {
+  text-decoration: none;
+}
+
+.post h3 {
+  border-color: #c9c8c7;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+
+.post h4 {
+  margin-bottom: 20px;
+}
+
+.post p img {
+  margin-bottom: 5px;
+}
+
+.post p img + em {
+  display: block;
+  font-size: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  .post {
+    padding: 30px;
+  }
+  .post p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  .post li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.reacent-posts {
+  padding-top: 2em;
+  margin-right: -15px;
+}
+
+.card {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+  .tools-table thead th:nth-child(2) {
+    width: 95px;
+  }
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors img {
+  max-width: 300px;
+}
