@@ -1,0 +1,35 @@
+name: Update schedule from connpass
+
+on:
+  schedule:
+    # Daily at 12:17 JST (03:17 UTC)
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch events from connpass and regenerate schedule
+        run: python scripts/update_schedule.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/schedule.yml
+          if git diff --cached --quiet; then
+            echo "No changes to schedule."
+          else
+            git commit -m "Update schedule from connpass"
+            git push
+          fi
