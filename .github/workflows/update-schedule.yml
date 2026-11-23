@@ -20,6 +20,8 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch events from connpass and regenerate schedule
+        env:
+          CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
         run: python scripts/update_schedule.py
 
       - name: Commit and push if changed
