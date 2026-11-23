@@ -1,9 +1,7 @@
 name: Update schedule from connpass
 
 on:
-  schedule:
-    # Daily at 12:17 JST (03:17 UTC)
-    - cron: "17 3 * * *"
+  # Manual runs only: triggered from the GitHub Actions tab when needed.
   workflow_dispatch:
 
 permissions:
